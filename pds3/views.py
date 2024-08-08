@@ -4,3 +4,7 @@ from django.shortcuts import render
 
 def ariel(request):
     return render(request, 'ariel.html')
+
+def savio(request):
+    return render(request, 'savio.html')
+=======

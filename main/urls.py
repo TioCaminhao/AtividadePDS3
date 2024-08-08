@@ -20,5 +20,6 @@ from pds3.views import *
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('ariel/', ariel, name='ariel')
+    path('ariel/', ariel, name='ariel'),
+    path('', savio, name="savio")
 ]
